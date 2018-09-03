@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-app-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint configuration used by Create React App TypeScript",
   "repository": "nickmccurdy/eslint-config-react-app-ts",
   "keywords": [
