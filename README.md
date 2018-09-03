@@ -1,20 +1,12 @@
 # `eslint-config-react-app-ts` [![npm version](https://badge.fury.io/js/eslint-config-react-app-ts.svg)](https://badge.fury.io/js/eslint-config-react-app-ts)
 
-This package includes the shareable ESLint configuration used by [Create React App TypeScript](https://github.com/wmonk/create-react-app-typescript).<br>
-Please refer to its documentation:
+This package extends [`eslint-config-react-app`](https://github.com/facebook/create-react-app/tree/master/packages/eslint-config-react-app) for [TypeScript](https://www.typescriptlang.org/) files by parsing them with [`typescript-eslint-parser`](https://github.com/eslint/typescript-eslint-parser) and preventing conflicts with the TypeScript compiler. It can also be used as a less opinionated and easier to learn alternative to [TSLint](https://github.com/palantir/tslint)'s recommended, [React](https://github.com/palantir/tslint-react), and [Prettier](https://www.npmjs.com/package/tslint-config-prettier) configs, without restrictions on type usage. Linter results for JS files are identitcal to `eslint-config-react-app`.
 
-- [Getting Started](https://github.com/wmonk/create-react-app-typescript) – How to create a new app.
-- [User Guide](https://github.com/wmonk/create-react-app-typescript/blob/master/template/README.md) – How to develop apps bootstrapped with Create React App TypeScript.
+## Development Status
 
-## Usage in Create React App Projects
+The main goal is to develop a more user friendly linter config for [Create React App TypeScript](https://github.com/wmonk/create-react-app-typescript) (see [#388](https://github.com/wmonk/create-react-app-typescript/pull/388)), but it should work in any TypeScript React app. If you experience a conflict between an ESLint rule and your TypeScript compiler settings, please [report an issue](https://github.com/nickmccurdy/eslint-config-react-app-ts/issues/new) with your configs.
 
-The easiest way to use this configuration is with [Create React App TypeScript](https://github.com/wmonk/create-react-app-typescript), which includes it by default.
-
-**You don’t need to install it separately in Create React App TypeScript projects.**
-
-## Usage Outside of Create React App TypeScript
-
-If you want to use this ESLint configuration in a project not built with Create React App TypeScript, you can install it with following steps.
+## Usage
 
 First, install this package, ESLint and the necessary plugins.
 
