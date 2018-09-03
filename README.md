@@ -1,4 +1,4 @@
-# eslint-config-react-app-ts
+# `eslint-config-react-app-ts` [![npm version](https://badge.fury.io/js/eslint-config-react-app-ts.svg)](https://badge.fury.io/js/eslint-config-react-app-ts)
 
 This package includes the shareable ESLint configuration used by [Create React App TypeScript](https://github.com/wmonk/create-react-app-typescript).<br>
 Please refer to its documentation:
