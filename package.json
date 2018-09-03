@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-react-app-ts",
+  "version": "1.0.0",
+  "description": "ESLint configuration used by Create React App TypeScript",
+  "repository": "nickmccurdy/eslint-config-react-app-ts",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Nick McCurdy <nick@nickmccurdy.com> (https://nickmccurdy.com/)",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">=4.1.0",
+    "eslint-config-react-app": "",
+    "typescript-eslint-parser": ""
+  }
+}
