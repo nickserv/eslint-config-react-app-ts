@@ -11,7 +11,7 @@
   "license": "ISC",
   "peerDependencies": {
     "eslint": ">=4.1.0",
-    "eslint-config-react-app": "",
-    "typescript-eslint-parser": ""
+    "eslint-config-react-app": "*",
+    "typescript-eslint-parser": "*"
   }
 }
