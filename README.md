@@ -22,6 +22,8 @@ Then create a file named `.eslintrc` with following contents in the root folder 
 }
 ```
 
-That's it! You can override the settings from `eslint-config-react-app-ts` by editing the `.eslintrc` file. Learn more about [configuring ESLint](http://eslint.org/docs/user-guide/configuring) on the ESLint website.
+You also need to make sure your usage of ESLint includes TypeScript files. For example, you can run `eslint . --ext js,jsx,ts,tsx` at the command line.
+
+You can override the settings from `eslint-config-react-app-ts` by editing the `.eslintrc` file. Learn more about [configuring ESLint](http://eslint.org/docs/user-guide/configuring) on the ESLint website.
 
 ## [Accessibility Checks](https://github.com/facebook/create-react-app/tree/master/packages/eslint-config-react-app#accessibility-checks)
