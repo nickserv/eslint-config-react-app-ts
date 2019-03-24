@@ -3,7 +3,7 @@ module.exports = {
   overrides: [
     {
       files: ["*.ts", "*.tsx"],
-      parser: "typescript-eslint-parser",
+      parser: "@typescript-eslint/parser",
       rules: {
         "no-array-constructor": "off",
         "no-multi-str": "off",

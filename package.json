@@ -12,6 +12,6 @@
   "peerDependencies": {
     "eslint": ">=4.1.0",
     "eslint-config-react-app": "*",
-    "typescript-eslint-parser": "*"
+    "@typescript-eslint/parser": "*"
   }
 }
