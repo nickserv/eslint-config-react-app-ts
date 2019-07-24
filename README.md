@@ -1,3 +1,6 @@
+# Deprecated
+[`eslint-config-react-app`](https://github.com/facebook/create-react-app/tree/master/packages/eslint-config-react-app) now supports [TypeScript](https://www.typescriptlang.org/) as of [facebook/create-react-app#6513](https://github.com/facebook/create-react-app/pull/6513).
+
 # `eslint-config-react-app-ts` [![npm version](https://badge.fury.io/js/eslint-config-react-app-ts.svg)](https://badge.fury.io/js/eslint-config-react-app-ts)
 
 This package extends [`eslint-config-react-app`](https://github.com/facebook/create-react-app/tree/master/packages/eslint-config-react-app) for [TypeScript](https://www.typescriptlang.org/) files by parsing them with [`typescript-eslint-parser`](https://github.com/eslint/typescript-eslint-parser) and preventing conflicts with the TypeScript compiler. It can also be used as a less opinionated and easier to learn alternative to [TSLint](https://github.com/palantir/tslint)'s recommended, [React](https://github.com/palantir/tslint-react), and [Prettier](https://www.npmjs.com/package/tslint-config-prettier) configs, without restrictions on type usage. Linter results for JS files are identical to `eslint-config-react-app`.
